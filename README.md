@@ -1,1 +1,1 @@
-# Landing-Page-Project
+In this project I will replicate a sample landing page provided by TOP.
