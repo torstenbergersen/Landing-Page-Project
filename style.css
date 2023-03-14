@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,24 +19,14 @@ header {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
 header, .hero {
     background-color: #1F2937;
-}
-
-.header-1 {
-    color: #F9FAF8;
-    font-size: 24px;
-}
-
-.bottom-middle {
-    background-color: #E5E7EB;
-}
-
-.quote {
-    font-size: 36px;
-    font-style: italic;
-    color:#1F2937;
-    font-weight: 300;
 }
 
 button {
@@ -45,6 +40,52 @@ button {
     padding-right: 10px;
 }
 
+.header-1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: #E5E7EB;
+}
+
+.top-button {
+    border: none;
+}
+
+.bottom-middle {
+    background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-subtext {
+    color: #1F2937;
+    font-size: 20px;
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    font-weight: 300;
+    display: flex;
+  
+}
+
+
 .awesome {
     font-size: 48px;
     font-weight: bolder;
@@ -55,12 +96,6 @@ button {
 .hero-subtext {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 .right-header {
@@ -101,8 +136,10 @@ a {
 
 
 .top-image {
-    width: 50%;
+    display: flex;
+    width: 40%;
     padding: 30px;
+    flex-shrink: 0;
 
 }
 
@@ -115,6 +152,28 @@ a {
 
 .bottom {
     background-color: #3882F6;
-    margin: 50px;
+    margin: 100px;
+    padding: 30px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #E5E7EB;
+}
+
+.action {
+    font-size: 20px;
+
+}
+
+.action, .coercion {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.bottom-button {
+    padding: 4px;
+    margin-left: 20px;
 }
