@@ -147,3 +147,60 @@ main h2 {
     font-size: 26px;
     font-weight: 400;
 }
+
+/* SIGN UP */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.sign-up .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #488a487d;
+    padding: 3em;
+    border-radius: 10px;
+
+}
+
+.sign-up button {
+    padding: 5px 1em;
+    width: 110px;
+    border-radius: 8px;
+    background-color: #ebedf2;
+    border: 1px solid black;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.sign-up .right {
+    color: #0e0e0e;
+    margin-left: 1em;
+}
+
+.sign-up button:hover {
+    background-color: #000000;
+    color: #ebedf2;
+}
+
+strong {
+    font-size: 24px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #5d5174a7;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
